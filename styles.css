@@ -1,7 +1,16 @@
-h1{
+:root {
+    --background: #f6f6f6;
+}
+
+.header {
     color: red;
 }
 
-p{
+.paragraph {
     color: red;
+    font-style: italic;
+}
+
+.header3 {
+    color: blue;
 }

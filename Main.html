@@ -3,26 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Mass Balance Calculator</title>
-    <link rel="slylesheet" href="styles.css">
+    <link rel="slylesheet" href="styles.css" />
 </head>
 <body>
 
-<h1>Mass Balance calculator</h1>
+<h1 class="header">Mass Balance calculator</h1>
 
-<label for="plane">Choose a car:</label>
+<label for="plane">Choose a plane:</label>
 <select name="plane" id="plane">
     <option value="DA-42NG">DA-42NG</option>
     <option value="Eclipse 550">Eclipse 550</option>
 </select>
 
-<p>Input masses</p>
+<h2 class="paragraph">Input masses</h2>
 
+<h3 class="header3">Dry Operating Mass</h3>
 <label for="LH front mass">LH front mass :</label>
-<input id="LH front mass" type="number" value="0">
+<input id="LH front mass" type="number" value="0" min="0">
 
 <label for="RH front mass">RH front mass :</label>
-<input id="RH front mass" type="number" value="0">
+<input id="RH front mass" type="number" value="0" min="0">
 
+<label for="De-icing mass">De-icing mass :</label>
+<input id="De-icing mass" type="number" value="0" max="34,64" min="0">
+
+<h3 class="header3">Zero Fuel Mass</h3>
+<label for="LH rear mass">RH rear mass :</label>
+<input id="LH rear mass" type="number" value="0" min="0">
+
+<label for="RH rear mass">RH rear mass :</label>
+<input id="RH rear mass" type="number" value="0" min="0">
+
+<label for="Nose compartment mass">Nose compartment mass :</label>
+<input id="Nose compartment mass" type="number" value="0" min="0" max="30">
+
+<label for="Cabin compartment mass">Cabin compartment mass :</label>
+<input id="Cabin compartment mass" type="number" value="0" min="0" max="45">
+
+<label for="Extension compartment mass">Extension compartment mass :</label>
+<input id="Extension compartment mass" type="number" value="0" min="0" max="18">
+
+<h3 class="header3">Ramp Mass</h3>
+<label for="MFT mass">Main Fuel tanks mass :</label>
+<input id="MFT mass" type="number" value="0" min="0" max="155">
+
+<label for="AFT mass">Aux Fuel tanks mass :</label>
+<input id="AFT mass" type="number" value="0" min="0" max="82">
+
+<h3 class="header3">Taxi Fuel Mass</h3>
+<label for="TaxiF mass">Taxi Fuel mass :</label>
+<input id="TaxiF mass" type="number" value="0" min="0" max="155">
+
+<h3 class="header3">Trip Fuel Mass</h3>
+<label for="TripF mass">Trip Fuel mass :</label>
+<input id="TripF mass" type="number" value="0" min="0" max="155">
+
+<h3 class="header3">Alternate Fuel Mass</h3>
+<label for="AF mass">Alternate Fuel mass :</label>
+<input id="AF mass" type="number" value="0" min="0" max="155">
 <!--<img src="ressource/DA-42NG.png" alt="DA-42NG">-->
 
 </body>
