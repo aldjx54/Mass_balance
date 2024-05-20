@@ -12,7 +12,13 @@
   },
   "private": true,
   "dependencies": {
+    "@grapecity/spread-sheets": "^17.0.9",
+    "@grapecity/spread-sheets-io": "^17.0.9",
     "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "file-saver-es": "^2.0.5",
+    "FileSaver": "^0.10.0",
+    "jquery": "^3.7.1",
     "three": "^0.164.1"
   }
 }
