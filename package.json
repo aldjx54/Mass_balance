@@ -2,7 +2,7 @@
   "name": "mass_balance",
   "version": "1.0.0",
   "description": "",
-  "main": "Mass.js",
+  "main": "Nav_excel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,7 @@
     "url": "https://github.com/aldjx54/Mass_balance.git"
   },
   "private": true,
+  "type": "module",
   "dependencies": {
     "@grapecity/spread-sheets": "^17.0.9",
     "@grapecity/spread-sheets-io": "^17.0.9",
@@ -19,6 +20,7 @@
     "file-saver-es": "^2.0.5",
     "FileSaver": "^0.10.0",
     "jquery": "^3.7.1",
+    "require": "^0.4.9",
     "three": "^0.164.1"
   }
 }
